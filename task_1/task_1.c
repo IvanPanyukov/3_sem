@@ -8,7 +8,7 @@ int main()
 {
     const int MAX_LEN = sysconf(_SC_ARG_MAX)+1;
     const char* STOP_KEYWORD = "exit()";
-    char* DELIMETERS = " ,-\n";
+    char* DELIMETERS = " ,\n";
 
     char* com;
     char** com_arg;
